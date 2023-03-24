@@ -1,6 +1,7 @@
 extra.apply {
     set("compose_ui_version", "1.2.0")
     set("dagger_hilt_version", "2.44")
+    set("hilt_navigation_version", "1.0.0")
     set("navigation_version", "2.5.3")
     set("retrofit_version", "2.9.0")
     set("okhttp_version", "4.10.0")

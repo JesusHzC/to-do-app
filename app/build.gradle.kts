@@ -78,6 +78,9 @@ dependencies {
     implementation("com.google.dagger:hilt-android:${versions.get("dagger_hilt_version")}")
     kapt("com.google.dagger:hilt-android-compiler:${versions.get("dagger_hilt_version")}")
 
+    //Dagger Hilt Navigation
+    implementation("androidx.hilt:hilt-navigation-compose:${versions.get("hilt_navigation_version")}")
+
     //Navigation
     implementation("androidx.navigation:navigation-compose:${versions.get("navigation_version")}")
 
