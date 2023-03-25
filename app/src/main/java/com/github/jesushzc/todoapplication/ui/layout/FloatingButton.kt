@@ -9,9 +9,13 @@ import com.github.jesushzc.todoapplication.R
 
 @Composable
 @Preview
-fun FloatingButton() {
+fun FloatingButton(
+    onClick: () -> Unit = {}
+) {
     FloatingActionButton(
-        onClick = { /*TODO*/ }
+        onClick = {
+            onClick.invoke()
+        }
     ) {
         Icon(
             painter = painterResource(id = R.drawable.icon_add),
